@@ -1,5 +1,10 @@
 # Shortly
 
+[![CI](https://github.com/gregojoao/shortly/actions/workflows/ci.yml/badge.svg)](https://github.com/gregojoao/shortly/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Shortly.svg?label=nuget&color=004880)](https://www.nuget.org/packages/Shortly)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-8%20%7C%2010-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com)
+
 Lightweight, self-hosted URL shortener SDK for .NET. Bring your own persistence and cache, plug it into any .NET worker/API/Telegram bot and own the short links end-to-end.
 
 - **Pluggable**: ports for storage (`IShortLinkStore`), cache (`IShortLinkCache`) and slug generation (`ISlugGenerator`).
