@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+TestResults/
+coverage/
+*.nupkg
+*.snupkg
+artifacts/
+.DS_Store
+*.DotSettings.user
+.claude/

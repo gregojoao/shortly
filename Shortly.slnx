@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Shortly/Shortly.csproj" />
+    <Project Path="src/Shortly.Dapper/Shortly.Dapper.csproj" />
+    <Project Path="src/Shortly.EntityFrameworkCore/Shortly.EntityFrameworkCore.csproj" />
+    <Project Path="src/Shortly.LiteDb/Shortly.LiteDb.csproj" />
+    <Project Path="src/Shortly.Mongo/Shortly.Mongo.csproj" />
+    <Project Path="src/Shortly.StackExchangeRedis/Shortly.StackExchangeRedis.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Shortly.Tests/Shortly.Tests.csproj" />
+    <Project Path="tests/Shortly.Dapper.Tests/Shortly.Dapper.Tests.csproj" />
+    <Project Path="tests/Shortly.EntityFrameworkCore.Tests/Shortly.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="tests/Shortly.LiteDb.Tests/Shortly.LiteDb.Tests.csproj" />
+    <Project Path="tests/Shortly.Mongo.Tests/Shortly.Mongo.Tests.csproj" />
+    <Project Path="tests/Shortly.StackExchangeRedis.Tests/Shortly.StackExchangeRedis.Tests.csproj" />
+  </Folder>
+</Solution>

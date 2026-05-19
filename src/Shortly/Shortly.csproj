@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Shortly</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Greco Labs</Authors>
+    <Company>Greco Labs</Company>
+    <Copyright>Copyright (c) 2026 Greco Labs</Copyright>
+    <Description>Self-hosted URL shortener SDK for .NET: pluggable persistence and cache, deterministic Base62 slugs, opt-in TTL and host allow-listing. Bring your own storage (EF Core, Dapper, Mongo, ...) and any IDistributedCache (Redis, SQL Server, ...).</Description>
+    <PackageProjectUrl>https://github.com/gregojoao/shortly</PackageProjectUrl>
+    <PackageTags>url;shortener;short-link;short-url;sdk;nuget</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/gregojoao/shortly</RepositoryUrl>
+    <PackageReleaseNotes>0.1.0 initial release. Provides IShortlyClient with shorten/resolve/delete operations, pluggable IShortLinkStore and IShortLinkCache ports, an in-memory store, an IMemoryCache adapter, an IDistributedCache adapter, and a Base62 slug generator.</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <Deterministic>true</Deterministic>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
