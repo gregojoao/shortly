@@ -336,3 +336,5 @@ MIT © 2026 Greco Labs. See [LICENSE](./LICENSE).
 # Test PR workflow
 
 This line exists only to exercise pull request approvals.
+
+Second test line for self-approval behavior.
