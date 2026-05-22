@@ -333,3 +333,6 @@ Each package follows [SemVer](https://semver.org/). Satellite packages depend on
 ## License
 
 MIT © 2026 Greco Labs. See [LICENSE](./LICENSE).
+# Test PR workflow
+
+This line exists only to exercise pull request approvals.
